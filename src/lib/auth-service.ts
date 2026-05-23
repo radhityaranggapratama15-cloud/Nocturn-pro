@@ -53,6 +53,6 @@ export const logout = async () => {
     clearPersistedLikedTrackIds();
     localStorage.removeItem("token");
     localStorage.removeItem("user");
-    window.location.replace("/"); // Pake replace biar bersih
+    window.location.replace("/"); 
   }
 };
